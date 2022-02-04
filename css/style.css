@@ -1,58 +1,92 @@
+/* css generale */
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-body{
-    height: 100vh;
-  
+html{
+    font-family: sans-serif;
 }
 
+body{
+    height: 100vh;
+}
+
+/* css aside-bar */
 .aside-bar{
-    width: 10%;
+    width: 200px;
     height: calc(70vh + 100px);
-    background-color: red;
+    background-color: black;
     float: left;
 }
 
+.aside-section{
+    width: 90%;
+    /* altezza provvisoria? */
+    height: 100%;
+    margin: 1rem auto;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+}
+
+.logo{
+    width: 90%;
+    margin-bottom: 0.7rem;
+}
+
+.flex-icon{
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.3rem;
+}
+
+.icons{
+    width: 2rem;
+    margin-right: 0.5rem;
+}
 
 
+
+/* css upgrade-bar */
 .upgrade-bar{
-    height: 100px;
+    height: 70px;
     position: fixed;
     top: 0;
-    left: 10%;
+    width: calc(100% - 200px);
     right: 0;
     background-color: rgba(0, 0, 0, 0.8);
-    
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 .upgrade{
     color: white;
-    border: 1px solid white;
+    border: 2px solid white;
     border-radius: 25px;
-    width: 16%;
-    height: 2.5rem;
-    line-height: 2.5rem;
+    width: 192px;
+    height: 2.3rem;
+    line-height: 2.3rem;
     text-align: center;
-    font-size: 0.8rem;
-    position: absolute;
-    right: 0;
-    top: 50%;
-    transform: translateY(-50%);
+    font-size: 0.7rem;
+    font-weight: 700;
 }
 
 
+/* css pagina */
 .page{
     height: 70vh;
     background-color: pink;
     float: right;
-    width: 90%;
-    margin-top: 100px;
+    width: calc(100% - 200px);
+    margin-top: 70px;
     overflow-y: scroll;
 }
 
+/* css footer */
 .footer{
     background-color: black;
     width: 100%;
@@ -60,6 +94,5 @@ body{
     position: fixed;
     bottom: 0;
     left: 0;
-   
 }
 
