@@ -13,6 +13,10 @@ body{
     height: 100vh;
 }
 
+ul{
+    list-style: none;
+}
+
 /* css aside-bar */
 .aside-bar{
     width: 200px;
@@ -47,6 +51,26 @@ body{
     width: 2rem;
     margin-right: 0.5rem;
 }
+
+.aside-bar-list{
+    margin-top: 1rem;
+}
+
+.aside-bar-list li{
+    margin-top: 1rem;
+    color: gray;
+}
+
+.fa-plus-square{
+    font-size: 2.2rem;
+    margin-right: 0.5rem;
+}
+
+.crea-playlist{
+    display: flex;
+    align-items: center;
+}
+
 
 
 
