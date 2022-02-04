@@ -24,8 +24,25 @@ body{
     top: 0;
     left: 10%;
     right: 0;
-    background-color: yellow;
+    background-color: rgba(0, 0, 0, 0.8);
+    
 }
+
+.upgrade{
+    color: white;
+    border: 1px solid white;
+    border-radius: 25px;
+    width: 16%;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    text-align: center;
+    font-size: 0.8rem;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
 
 .page{
     height: 70vh;
