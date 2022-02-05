@@ -163,7 +163,7 @@ button{
 
 /* css pagina */
 .page{
-    height: 100vh;
+    height: calc(100vh - 100px);
     background-color: #141922;
     float: right;
     width: calc(100% - 200px);
