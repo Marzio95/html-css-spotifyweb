@@ -268,6 +268,7 @@ h5{
 .song-played{
     display: flex;
     flex-direction: column;
+    font-size: 0.9rem;
 }
 
 .footer-img{
@@ -285,10 +286,66 @@ h5{
 
 .icone-foot{
     color: gray;
-    font-size: 1.2rem;
+    font-size: 0.8rem;
     margin-right: 0.5rem;
 }
 
 .cont-icons{
     margin-left: 2rem;
 }
+
+.col-center-foot{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icons-row{
+    color: white;
+}
+
+.time-song{
+    display: flex;
+    align-items: baseline;
+}
+
+.row-time{
+    width: 400px;
+    border-radius: 25px;
+    border: 1px solid gray;
+    background-color: gray;
+    height: 4px;
+    margin-top: 0.8rem;
+}
+
+.cent-ic{
+    margin: 0 .4rem;
+}
+
+.timing{
+    color: gray;
+    margin: 0 1rem;
+    font-size: 00.7rem;
+}
+
+.col-right-foot{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.icon-rgt{
+    font-size: 0.8rem;
+    margin-right: 2rem;
+}
+
+.row-volume{
+    width: 100px;
+    border-radius: 25px;
+    border: 1px solid gray;
+    background-color: gray;
+    height: 4px;
+    margin-right: 1rem;
+}
+
+
