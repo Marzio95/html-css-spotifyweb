@@ -236,6 +236,10 @@ h5{
     width: 100%;
 }
 
+.circle{
+    border-radius: 50%;
+}
+
 
 /* css footer */
 .footer{
