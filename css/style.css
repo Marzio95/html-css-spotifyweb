@@ -251,3 +251,44 @@ h5{
     left: 0;
 }
 
+.flex-conteiner-foot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.col-left-foot{
+    display: flex;
+    align-items: center;
+    
+}
+
+.song-played{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-img{
+    width: 50px;
+    margin: 0 1rem;
+}
+
+.title-song{
+    color: white;
+}
+
+.sottotile-song{
+    color: gray;
+}
+
+.icone-foot{
+    color: gray;
+    font-size: 1.2rem;
+    margin-right: 0.5rem;
+}
+
+.cont-icons{
+    margin-left: 2rem;
+}
