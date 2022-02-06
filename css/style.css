@@ -379,3 +379,27 @@ h5{
 }
 
 
+/* effetto hover su img card */
+.position-relative{
+    position: relative;
+}
+
+.positionated{
+    color: white;
+    font-size: 4rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    visibility: hidden;
+}
+
+
+.play-hover-song:hover .positionated {
+    visibility: visible;
+}
+
+.play-hover-song:hover .album-img{
+    filter: brightness(0.3);
+}
+
