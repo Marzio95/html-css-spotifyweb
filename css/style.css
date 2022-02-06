@@ -58,6 +58,10 @@ button{
     display: flex;
     align-items: center;
     margin-bottom: 0.4rem;
+    color: gray;
+}
+.bianca{
+    color: white;
 }
 
 .icons{
@@ -297,6 +301,11 @@ h5{
     color: gray;
 }
 
+.sottotile-song:hover{
+    color: white;
+    text-decoration: underline;
+}
+
 .icone-foot{
     color: gray;
     font-size: 0.8rem;
@@ -359,6 +368,14 @@ h5{
     background-color: gray;
     height: 4px;
     margin-right: 1rem;
+}
+
+.hover-play{
+    font-size: 1.4rem;
+}
+
+.hover-play:hover{
+    font-size: 1.8rem;
 }
 
 
