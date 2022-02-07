@@ -348,13 +348,28 @@ h5{
     border: 1px solid lightgray;
     background-color: lightgray;
     height: 4px;  
+    position: relative;
 }
 
+.row-time-live-circle{
+    position: absolute;
+    top: -300%;
+    right: -3%;
+    height: 1rem;
+    width: 1rem;
+    border-radius: 50%;
+    background-color: lightgray;
+    display: none;
+}
 
 
 .row-time-live:hover{
     background-color: yellow;
     border: 1px solid yellow;
+}
+
+.row-time-live:hover .row-time-live-circle{
+    display: inline-block;
 }
 
 .cent-ic{
@@ -393,11 +408,28 @@ h5{
     border: 1px solid lightgray;
     background-color: lightgray;
     height: 4px;
+    position: relative;
 }
+
+.row-volume-live-circle{
+    position: absolute;
+    top: -300%;
+    right: -3%;
+    height: 1rem;
+    width: 1rem;
+    border-radius: 50%;
+    background-color: lightgray;
+    display: none;
+}
+
 
 .row-volume-live:hover{
     background-color: yellow;
     border: 1px solid yellow;
+}
+
+.row-volume-live:hover .row-volume-live-circle{
+    display: inline-block;
 }
 
 .hover-play{
