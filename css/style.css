@@ -201,6 +201,7 @@ button{
     margin-left: 2rem;
     font-size: 0.7rem;
     font-weight: 800;
+    margin-top: 0.9rem;
 }
 
 .bar-relative{
@@ -215,6 +216,14 @@ button{
     position: absolute;
     left: 30%;
 
+}
+
+.bar-absolute2{
+    width: 3px;
+    height: 100%;
+    background-color: greenyellow;
+    position: absolute;
+    left: -8px;
 }
 
 .hover-white:hover{
