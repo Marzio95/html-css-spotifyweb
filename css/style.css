@@ -203,6 +203,20 @@ button{
     font-weight: 800;
 }
 
+.bar-relative{
+    position: relative;
+}
+
+.bar-absolute{
+    width: 40%;
+    height: 2px;
+    margin-top: 1px;
+    background-color: greenyellow;
+    position: absolute;
+    left: 30%;
+
+}
+
 .hover-white:hover{
     color: white;
 }
