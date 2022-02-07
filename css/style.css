@@ -566,6 +566,7 @@ h5{
         margin-top: 30px;
     }
 
+    
 }
 
 @media screen and (max-width: 576px){
@@ -596,6 +597,10 @@ h5{
 
     .navbar{
         margin-top: 30px;
+    }
+
+    .col-right-foot{
+        width: 30%;
     }
 
 }
@@ -657,6 +662,10 @@ h5{
     }
 
     .row-volume{
-        margin-right: 0.5rem;
+        margin-right: 1rem;
+    }
+
+    .col-right-foot{
+        width: 30%;
     }
 }
