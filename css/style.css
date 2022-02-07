@@ -339,6 +339,22 @@ h5{
     background-color: gray;
     height: 4px;
     margin-top: 0.8rem;
+    
+}
+
+.row-time-live{
+    width: 40%;
+    border-radius: 25px;
+    border: 1px solid lightgray;
+    background-color: lightgray;
+    height: 4px;  
+}
+
+
+
+.row-time-live:hover{
+    background-color: yellow;
+    border: 1px solid yellow;
 }
 
 .cent-ic{
@@ -369,6 +385,19 @@ h5{
     background-color: gray;
     height: 4px;
     margin-right: 1rem;
+}
+
+.row-volume-live{
+    width: 30%;
+    border-radius: 25px;
+    border: 1px solid lightgray;
+    background-color: lightgray;
+    height: 4px;
+}
+
+.row-volume-live:hover{
+    background-color: yellow;
+    border: 1px solid yellow;
 }
 
 .hover-play{
