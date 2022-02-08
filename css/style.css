@@ -234,7 +234,7 @@ button{
     height: 100%;
     background-color: greenyellow;
     position: absolute;
-    left: -8px;
+    left: -16px;
 }
 
 .hover-white:hover{
