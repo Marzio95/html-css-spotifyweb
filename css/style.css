@@ -516,7 +516,7 @@ h5{
     font-size: 2rem;
     color: white;
     position: absolute;
-    left: 2%;
+    right: 98%;
     animation-name: moving-row;
     animation-duration: 4s;
     animation-iteration-count: infinite;
@@ -526,7 +526,7 @@ h5{
 @keyframes moving-row {
     
     100%{
-        left: 82%;
+        right: 220px;
     }
     
 }
@@ -565,7 +565,7 @@ h5{
         font-size: 2rem;
         color: white;
         position: absolute;
-        left: 2%;
+        right: 90%;
         animation-name: moving-row2;
         animation-duration: 4s;
         animation-iteration-count: infinite;
@@ -575,7 +575,7 @@ h5{
     @keyframes moving-row2 {
         
         100%{
-            left: 70%;
+            right: 220px;
         }
         
     }
@@ -618,7 +618,7 @@ h5{
         font-size: 2rem;
         color: white;
         position: absolute;
-        left: 2%;
+        right: 90%;
         animation-name: moving-row2;
         animation-duration: 4s;
         animation-iteration-count: infinite;
@@ -628,7 +628,7 @@ h5{
     @keyframes moving-row2 {
         
         100%{
-            left: 56%;
+            right: 220px;
         }
         
     }
@@ -673,7 +673,7 @@ h5{
         font-size: 2rem;
         color: white;
         position: absolute;
-        left: 2%;
+        right: 90%;
         animation-name: moving-row2;
         animation-duration: 4s;
         animation-iteration-count: infinite;
@@ -683,7 +683,7 @@ h5{
     @keyframes moving-row2 {
         
         100%{
-            left: 34%;
+            right: 220px;
         }
         
     }
@@ -758,7 +758,7 @@ h5{
         font-size: 2rem;
         color: white;
         position: absolute;
-        left: 2%;
+        right: 90%;
         animation-name: moving-row2;
         animation-duration: 4s;
         animation-iteration-count: infinite;
@@ -768,7 +768,7 @@ h5{
     @keyframes moving-row2 {
         
         100%{
-            left: 49%;
+            right: 220px;
         }
         
     }
