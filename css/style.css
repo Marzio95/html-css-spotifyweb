@@ -82,6 +82,8 @@ button{
 
 .aside-bar-list{
     margin-top: 1rem;
+    height: 40vh;
+    overflow-y: auto;
 }
 
 .aside-bar-list li{
