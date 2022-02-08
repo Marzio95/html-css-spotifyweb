@@ -671,3 +671,28 @@ h5{
         width: 30%;
     }
 }
+
+/* ANIMATION */
+.animation-row{
+    font-size: 2rem;
+    color: white;
+    position: absolute;
+    left: 2%;
+    animation-name: moving-row;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: calc(0s);
+}
+
+@keyframes moving-row {
+    
+    100%{
+        left: 82%;
+    }
+    
+}
+
+
+
+
+
